@@ -1,5 +1,6 @@
 import "./App.css";
 import { Calculator } from "./components/Calculator/Calculator";
+import { CalculatorTwo } from "./components/Calculator/CalculatorTwo";
 import { Counter } from "./components/Counter/Counter";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
     <div className="App">
       {/* <Counter /> */}
       <Calculator />
+      <hr></hr>
+      <CalculatorTwo />
     </div>
   );
 }
